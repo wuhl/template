@@ -6,7 +6,7 @@ gem 'high_voltage'
 gem 'simple_form'
 
 gem 'rails-i18n'
-gem 'rails-i18n-enhanced', path: '~/Documents/Rails/gems/rails-i18n-enhanced'
+gem 'rails-i18n-enhanced', github: 'wuhl/rails-i18n-enhanced'
 
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'bootstrap-enhanced', github: 'wuhl/bootstrap-enhanced'
@@ -14,6 +14,15 @@ gem 'bootstrap-enhanced', github: 'wuhl/bootstrap-enhanced'
 gem 'momentjs-rails', '>= 2.9.0'
 gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-datepicker-enhanced', github: 'wuhl/bootstrap-datepicker-enhanced'
+
+gem_group :development, :test do
+  gem 'byebug', platform: :mri
+end
+
+gem_group :development do
+  gem 'web-console'
+  gem 'better_errors'
+end
 
 copy_file "~/Documents/Rails/template/translation.yml", "doc/translation.yml"
 
