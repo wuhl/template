@@ -1,0 +1,18 @@
+de:
+  project:
+    one: "Projekt"
+    other: "Projekte"
+  resource:
+    one: "Mitarbeiter"
+    other: "Mitarbeiter"
+  project_phase:
+    one: "Projektphase"
+    other: "Projektphasen"
+  project_member:
+    one: "Projektmitglied"
+    other: "Projektmitglieder"
+  name: "Name"
+  start: "Beginn"
+  end: "Ende"
+  first_name: "Vorname"
+  last_name: "Nachname"
